@@ -1,6 +1,4 @@
 ﻿## Londres - Gerenciamento de Campeonatos
-[![Build Status](https://travis-ci.org/RaphaelFuzaite/Fuzaite.Londres.svg?branch=master)](https://travis-ci.org/RaphaelFuzaite/Fuzaite.Londres)
-[![Dependency Status](https://david-dm.org/RaphaelFuzaite/Fuzaite.Londres.svg)](https://david-dm.org/RaphaelFuzaite/Fuzaite.LOndres)
 
 Projeto de utilização privada o gerenciamento de campeonatos.
 
