@@ -1,0 +1,40 @@
+﻿using Fuzaite.Londres.Service.Data;
+using Fuzaite.Londres.Service.Models;
+using System.Collections.Generic;
+using System.Web.Http;
+
+namespace Fuzaite.Londres.Service.Controllers
+{
+    public class CampeonatoController : ApiController
+    {
+        public ICampeonatoRepository CampeonatoRepository { get; set; }
+
+        // GET api/<controller>
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
+        // GET api/<controller>/5
+        public string Get(int id)
+        {
+            return "value";
+        }
+
+        // POST api/<controller>
+        public void Post([FromBody]Campeonato campeonato)
+        {
+            CampeonatoRepository.Store(campeonato);
+        }
+
+        // PUT api/<controller>/5
+        public void Put(int id, [FromBody]string value)
+        {
+        }
+
+        // DELETE api/<controller>/5
+        public void Delete(int id)
+        {
+        }
+    }
+}
